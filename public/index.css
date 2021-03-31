@@ -1,0 +1,214 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.topBar {
+    background-color: #333;
+    overflow: hidden;
+    padding: 10px 10px;
+}
+
+.topBar a {
+    color: #fff;
+    font-size: 20px;
+    padding: 3%;
+}
+
+a.active {
+    color: rgb(160, 160, 161);
+}
+
+h1 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.macbookPro {
+    display: flex;
+    margin-left: 30px;
+    align-items: baseline;
+}
+
+.macbookPro div {
+    margin-left: 760px;
+}
+
+.macbookPro a {
+    padding: 10px;
+}
+
+.overviewMacOS {
+    color: rgb(78 , 78, 70);
+}
+
+.buy {
+    color: #fff;
+    background-color: rgb(8, 116, 202);
+    border-radius: 80%/100%;
+}
+
+hr {
+    background-color: rgb(219, 219, 219);
+    color: rgb(219, 219, 219);
+    width: 95%;
+    height: 1px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.buttons button {
+    background-color: #fff;
+    border-radius: 5px;
+    border-color: #999;
+    border-width: 1px;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 30px;
+}
+
+.buttons button.active {
+    border-style: solid;
+    border-color: rgb(8, 116, 202);
+    border-width: 2px;
+}
+
+.touchBar {
+    display: flex;
+    margin-left: 30px;
+    align-items: baseline;
+}
+
+.touchBar p {
+    margin-left: 300px;
+}
+
+.imgTouchBar {
+    position: relative;
+    left: 400px;
+    padding: 10px;
+}
+
+.imgTouchBar img {
+    width: 160px;
+    height: 175px;
+}
+
+.price {
+    display: flex;
+    margin-left: 30px;
+    align-items: baseline;
+}
+
+.price div {
+    display: flex;
+    margin-left: 300px;
+}
+
+.price p {
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+.finish {
+    display: flex;
+    margin-left: 30px;
+    align-items: stretch;
+}
+
+.imgFinish img {
+    margin-left: 330px;
+    width: 350px;
+    height: 150px;
+}
+
+.finishCaption {
+    display: flex;
+    margin-left: 330px;
+}
+
+.finish p {
+    padding-right: 150px;
+}
+
+.display {
+    display: flex;
+    margin-left: 30px;
+    align-items: baseline;
+}
+
+.display div {
+    margin-left: 320px;
+}
+
+.display h2 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.processor {
+    display: flex;
+    margin-left: 30px;
+    align-items: baseline;
+}
+
+.pDiv {
+    display: flex;
+    margin-left: 295px;
+}
+
+.processor p {
+    padding-right: 40px;
+}
+
+.storage {
+    display: flex;
+    margin-left: 30px;
+    align-items: baseline;
+}
+
+.sDiv {
+    display: flex;
+    margin-left: 310px;
+}
+
+.sDiv div {
+    padding-right: 100px;
+}
+
+.memory {
+    display: flex;
+    margin-left: 30px;
+    align-items: baseline;
+}
+
+.memory div {
+    margin-left: 24.5%;
+}
+
+.graphics {
+    display: flex;
+    margin-left: 30px;
+    align-items: baseline;
+}
+
+.graphics div {
+    display: flex;
+    margin-left: 24%;
+}
+
+.graphicsP {
+    padding-right: 250px;
+}
+
+.orangeBlock {
+    color: orange;
+    border: 2px solid orange;
+    background-color: white;
+    border-radius: 5px;
+    padding: 5px;
+}
